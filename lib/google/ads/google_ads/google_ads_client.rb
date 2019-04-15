@@ -147,7 +147,6 @@ module Google
             logging_interceptor = Google::Ads::GoogleAds::LoggingInterceptor.new(logger)
           end
 
-
           if name.nil?
             Factories::Services.new(
               service_path: service_path,
